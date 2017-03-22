@@ -1,0 +1,23 @@
+.App {
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  top: 0;
+}
+
+.App .Content {
+  width: 80%;
+  height: 100%;
+  flex-grow: 3;
+  background: white;
+}
+
+.App .Menu {
+  flex-grow: 1;
+}
+
+.Content-Container {
+  display: flex;
+  height: 100%;
+}
